@@ -1,0 +1,48 @@
+2022.05.18 13:06:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\OneDrive\Scala\lesson5-challenge\.metals\lsp.trace.json or C:\Users\solie\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.18 13:06:27 INFO  logging to file D:\OneDrive\Scala\lesson5-challenge\.metals\metals.log
+2022.05.18 13:06:27 INFO  Started: Metals version 0.11.5 in workspace 'D:\OneDrive\Scala\lesson5-challenge' for client Visual Studio Code 1.67.1.
+2022.05.18 13:06:30 INFO  time: initialize in 2.85s
+2022.05.18 13:06:30 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.18 13:06:30 WARN  Build server is not auto-connectable.
+2022.05.18 13:06:52 INFO  running 'C:\Program Files\Java\jdk-17.0.3.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\solie\AppData\Local\Temp\metals11773458930413069091\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.18 13:06:54 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.3.1)
+2022.05.18 13:06:58 INFO  [info] loading settings for project lesson5-challenge-build-build from metals.sbt ...
+2022.05.18 13:06:59 INFO  [info] loading project definition from D:\OneDrive\Scala\lesson5-challenge\project\project
+2022.05.18 13:06:59 WARN  no build target for: D:\OneDrive\Scala\lesson5-challenge\src\main\scala\Main.scala
+2022.05.18 13:07:06 INFO  [info] loading settings for project lesson5-challenge-build from metals.sbt ...
+2022.05.18 13:07:06 INFO  [info] loading project definition from D:\OneDrive\Scala\lesson5-challenge\project
+2022.05.18 13:07:10 INFO  no build target found for D:\OneDrive\Scala\lesson5-challenge\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.18 13:07:15 INFO  [success] Generated .bloop\lesson5-challenge-build.json
+2022.05.18 13:07:15 INFO  [success] Total time: 9 s, completed May 18, 2022, 1:07:15 PM
+2022.05.18 13:07:17 INFO  time: code lens generation in 2.2s
+2022.05.18 13:07:17 INFO  time: code lens generation in 5.32s
+2022.05.18 13:07:17 INFO  time: code lens generation in 2.21s
+2022.05.18 13:07:17 INFO  time: code lens generation in 5.32s
+2022.05.18 13:07:17 INFO  time: code lens generation in 5.39s
+2022.05.18 13:07:17 INFO  time: code lens generation in 15s
+2022.05.18 13:07:17 INFO  time: code lens generation in 15s
+2022.05.18 13:07:17 INFO  time: code lens generation in 16s
+2022.05.18 13:07:17 INFO  time: code lens generation in 15s
+2022.05.18 13:07:17 INFO  time: code lens generation in 5.52s
+2022.05.18 13:07:18 INFO  [info] loading settings for project root from build.sbt ...
+2022.05.18 13:07:18 INFO  [info] set current project to lesson5-challenge (in build file:/D:/OneDrive/Scala/lesson5-challenge/)
+2022.05.18 13:07:19 INFO  [success] Generated .bloop\root.json
+2022.05.18 13:07:19 INFO  [success] Generated .bloop\root-test.json
+2022.05.18 13:07:19 INFO  [success] Total time: 1 s, completed May 18, 2022, 1:07:19 PM
+2022.05.18 13:07:20 INFO  time: ran 'sbt bloopInstall' in 28s
+2022.05.18 13:07:20 INFO  Attempting to connect to the build server...
+2022.05.18 13:07:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\OneDrive\Scala\lesson5-challenge\.metals\bsp.trace.json or C:\Users\solie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.18 13:07:24 INFO  Attempting to connect to the build server...
+2022.05.18 13:07:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\OneDrive\Scala\lesson5-challenge\project\.metals\bsp.trace.json or C:\Users\solie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.18 13:07:26 INFO  time: Connected to build server in 6.44s
+2022.05.18 13:07:26 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.18 13:07:27 INFO  time: Imported build in 0.21s
+2022.05.18 13:07:33 INFO  time: indexed workspace in 6.3s
+2022.05.18 13:07:33 INFO  compiling root (1 scala source)
+2022.05.18 13:07:41 INFO  time: compiled root in 7.17s
+2022.05.18 13:07:41 INFO  compiling root (1 scala source)
+2022.05.18 13:07:44 INFO  time: compiled root in 2.82s
+2022.05.18 13:08:19 INFO  compiling root (1 scala source)
+2022.05.18 13:08:20 INFO  shutting down Metals
+2022.05.18 13:08:20 INFO  Shut down connection with build server.
+2022.05.18 13:08:20 INFO  Shut down connection with build server.

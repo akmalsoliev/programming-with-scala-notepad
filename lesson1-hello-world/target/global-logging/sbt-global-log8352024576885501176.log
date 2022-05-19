@@ -1,0 +1,77 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Amazon.com Inc. Java 1.8.0_332)
+[debug] Load.defaultLoad until apply took 835.2946ms
+[debug]           Load.loadUnit: plugins took 623.1835ms
+[debug]           Load.loadUnit: defsScala took 1.4048ms
+[debug] [Loading] Scanning directory D:\OneDrive\Scala\hello-world\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\OneDrive\Scala\hello-world\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 61.6617 ms
+[debug]               Load.resolveProject(hello-world-build) took 72.2373ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hello-world-build, base: D:\OneDrive\Scala\hello-world\project, plugins: List(<none>))) took 243.0093ms
+[debug] [Loading] Done in D:\OneDrive\Scala\hello-world\project, returning: (hello-world-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 274.1488ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3028ms
+[debug]         Load.loadUnit(file:/D:/OneDrive/Scala/hello-world/project/, ...) took 908.0468ms
+[debug]       Load.apply: load took 1657.6391ms
+[debug]       Load.apply: resolveProjects took 29.4545ms
+[debug]       Load.apply: finalTransforms took 256.5262ms
+[debug]       Load.apply: config.delegates took 54.6274ms
+[debug]       Load.apply: Def.make(settings)... took 1119.0686ms
+[debug]       Load.apply: structureIndex took 113.016ms
+[debug]       Load.apply: mkStreams took 1.7984ms
+[info] loading project definition from D:\OneDrive\Scala\hello-world\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5019.6847ms
+[debug]     Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory D:\OneDrive\Scala\hello-world
+[debug]       Load.loadUnit: mkEval took 9.9841ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\OneDrive\Scala\hello-world, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.8916 ms
+[info] loading settings for project hello-world from build.sbt ...
+[debug]         Load.resolveProject(hello-world) took 5.2418ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id hello-world, base: D:\OneDrive\Scala\hello-world, plugins: List(<none>))) took 9.7115ms
+[debug] [Loading] Done in D:\OneDrive\Scala\hello-world, returning: (hello-world)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3044.6858ms
+[debug]     Load.loadUnit: cleanEvalClasses took 38.1141ms
+[debug]   Load.loadUnit(file:/D:/OneDrive/Scala/hello-world/, ...) took 8105.2407ms
+[debug] Load.apply: load took 8145.6727ms
+[debug] Load.apply: resolveProjects took 0.2053ms
+[debug] Load.apply: finalTransforms took 15.6096ms
+[debug] Load.apply: config.delegates took 0.7467ms
