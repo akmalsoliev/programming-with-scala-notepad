@@ -25,4 +25,18 @@ object Main extends App{
   println(Nike.product)
   Nike.makeProduct()
 
+  class WaterFactory(val numberOfEmployees: Int) extends Factory(){
+    override def makeProduct(): Unit = println(s"$product is being produced!")
+    def headCount(litersOfWaterProduced: Double):Unit = {
+      val literPerEmployee = litersOfWaterProduced / numberOfEmployees
+      println(s"Each employee produces: $literPerEmployee liters of water")
+    }
+  }
+
+  val Nestle = new WaterFactory(3)
+  println(Nestle.factoryName)
+  println(Nestle.product)
+  Nestle.makeProduct()
+  Nestle.headCount(600.48)
+
 }
