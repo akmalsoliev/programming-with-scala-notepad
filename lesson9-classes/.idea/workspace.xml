@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1a6819c-b587-4f03-8090-acdb70765b59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/classes/Main.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/classes/Main.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/update/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/target/scala-3.1.2/update/update_cache_3/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson8-capstone/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8-capstone/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="29Zfs9fR8ee5rJoLACl4NbNUXvq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson9-imports"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lesson9-imports" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lesson9-imports" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="scala3DisclaimerShown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1a6819c-b587-4f03-8090-acdb70765b59" name="Changes" comment="" />
+      <created>1653325733552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653325733552</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -8,7 +8,7 @@ object Main extends App{
   class VendingMachine(customer: Customer){
       // product availability check
       if (customer.selection.available) {
-        // checking the balanace
+        // checking the balance
         if (customer.balance >= customer.selection.price) {
           println(s"${customer.selection.itemName} is being vended.")
         }
