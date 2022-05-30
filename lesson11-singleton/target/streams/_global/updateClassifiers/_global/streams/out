@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/D:/OneDrive/Coding/Scala/programming-with-scala-notepad/lesson11-singleton/"), "root")...
-[debug] Done updating ProjectRef(uri("file:/D:/OneDrive/Coding/Scala/programming-with-scala-notepad/lesson11-singleton/"), "root")
+[warn] scala3-library_3-3.1.2-sources.jar no longer exists at C:\Users\solie\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.2\scala3-library_3-3.1.2-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson11-singleton/"), "root")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson11-singleton/"), "root")
