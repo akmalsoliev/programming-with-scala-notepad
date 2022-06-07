@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson12-seasled-traits/}root/products {file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson12-seasled-traits/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Jun 3, 2022, 11:53:52 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

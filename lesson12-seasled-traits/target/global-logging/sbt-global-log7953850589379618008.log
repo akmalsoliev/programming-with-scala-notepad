@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson12-seasled-traits/}root/products {file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson12-seasled-traits/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\target\scala-3.1.2\classes ...
+[info] done compiling
+[success] Total time: 2 s, completed Jun 7, 2022, 6:14:08 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

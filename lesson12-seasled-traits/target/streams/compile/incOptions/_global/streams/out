@@ -1,0 +1,41 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\target\scala-3.1.2\classes.bak
+[debug] About to delete class files:
+[debug] 	Main$.class
+[debug] 	Main.class
+[debug] 	Main$HighSchool.class
+[debug] 	Main$Jul$.class
+[debug] 	Main$Jack$.class
+[debug] 	Main$.tasty
+[debug] 	Main.tasty
+[debug] 	Main$HighSchool.tasty
+[debug] 	Main$Jul$.tasty
+[debug] 	Main$Jack$.tasty
+[debug] We backup class files:
+[debug] 	Main$.class
+[debug] 	Main.class
+[debug] 	Main$HighSchool.class
+[debug] 	Main$Jul$.class
+[debug] 	Main$Jack$.class
+[debug] 	Main$.tasty
+[debug] 	Main.tasty
+[debug] 	Main$HighSchool.tasty
+[debug] 	Main$Jul$.tasty
+[debug] 	Main$Jack$.tasty
+[debug] Registering generated classes:
+[debug] 	Main$HigSchool$.class
+[debug] 	Main$.class
+[debug] 	Main.class
+[debug] 	Main$HighSchool.class
+[debug] 	Main$Jul$.class
+[debug] 	Main$Jack$.class
+[debug] 	Main$HigSchool.class
+[debug] 	Main$$anon$1.class
+[debug] 	Main$HigSchool$.tasty
+[debug] 	Main$.tasty
+[debug] 	Main.tasty
+[debug] 	Main$HighSchool.tasty
+[debug] 	Main$Jul$.tasty
+[debug] 	Main$Jack$.tasty
+[debug] 	Main$HigSchool.tasty
+[debug] 	Main$$anon$1.tasty
+[debug] Removing the temporary directory used for backing up class files: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\target\scala-3.1.2\classes.bak

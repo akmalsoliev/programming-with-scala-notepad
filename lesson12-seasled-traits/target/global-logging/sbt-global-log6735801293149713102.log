@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\akmal.soliev\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\akmal.soliev\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.1.1)
+[debug]       Load.loadUnit: plugins took 100.3633ms
+[debug]       Load.loadUnit: defsScala took 0.2433ms
+[debug] [Loading] Scanning directory C:\Users\akmal.soliev\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\akmal.soliev\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.9103 ms
+[debug]           Load.resolveProject(global-plugins) took 39.7782ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\akmal.soliev\.sbt\1.0\plugins, plugins: List(<none>))) took 75.1563ms
+[debug] [Loading] Done in C:\Users\akmal.soliev\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 95.7491ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1942ms
+[debug]     Load.loadUnit(file:/C:/Users/akmal.soliev/.sbt/1.0/plugins/, ...) took 206.5664ms
+[debug]   Load.apply: load took 381.6822ms
+[debug]   Load.apply: resolveProjects took 7.6979ms
+[debug]   Load.apply: finalTransforms took 75.7529ms
+[debug]   Load.apply: config.delegates took 8.4617ms
+[debug]   Load.apply: Def.make(settings)... took 569.8341ms
+[debug]   Load.apply: structureIndex took 115.5951ms
+[debug]   Load.apply: mkStreams took 2.2393ms
+[info] loading global plugins from C:\Users\akmal.soliev\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8621.3044ms
+[debug]           Load.loadUnit: plugins took 42.7003ms
+[debug]           Load.loadUnit: defsScala took 0.0058ms
+[debug] [Loading] Scanning directory C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\project
+[debug]             Load.loadUnit: mkEval took 9.9362ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4022 ms
+[info] loading settings for project lesson12-seasled-traits-build from idea.sbt ...
+[debug]               Load.resolveProject(lesson12-seasled-traits-build) took 4.2434ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id lesson12-seasled-traits-build, base: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\project, plugins: List(<none>))) took 7.5241ms
+[debug] [Loading] Done in C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\project, returning: (lesson12-seasled-traits-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2998.5987ms
+[debug]           Load.loadUnit: cleanEvalClasses took 14.6747ms
+[debug]         Load.loadUnit(file:/C:/Users/akmal.soliev/OneDrive%20-%20Nunatac%20S.r.l/Formazione/Scala/programming-with-scala-notepad/lesson12-seasled-traits/project/, ...) took 3058.177ms
+[debug]       Load.apply: load took 3061.8854ms
+[debug]       Load.apply: resolveProjects took 0.1829ms
+[debug]       Load.apply: finalTransforms took 18.0938ms
+[debug]       Load.apply: config.delegates took 0.5847ms
+[debug]       Load.apply: Def.make(settings)... took 173.7147ms
+[debug]       Load.apply: structureIndex took 46.7199ms
+[debug]       Load.apply: mkStreams took 0.0046ms
+[info] loading project definition from C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Canceling execution...
+[error] Cancelled: loadp
+[error] Cancelled: loadp
+[error] Use 'last' for the full log.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[debug] > Exec(last, None, None)
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

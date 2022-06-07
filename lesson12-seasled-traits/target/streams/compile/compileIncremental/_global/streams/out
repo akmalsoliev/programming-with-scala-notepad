@@ -1,0 +1,33 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 5 products, 1 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Main.scala), unmodified = ...),Set(${BASE}/target/scala-3.1.2/classes/Main$.class, ${BASE}/target/scala-3.1.2/classes/Main.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Main.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-3.1.2/classes/Main$.class, ${BASE}/target/scala-3.1.2/classes/Main.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Main$.Jul, Main, Main$.HighSchool, Main$.Jack)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: Main$.Jul, Main, Main$.HighSchool, Main$.Jack
+[debug] Including Main$.Jack by Main$.HighSchool
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\target\scala-3.1.2\classes ...
+[debug] Returning already retrieved and compiled bridge: C:\Users\akmal.soliev\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.2\scala3-sbt-bridge-3.1.2.jar.
+[debug] [zinc] Running cached compiler 9c91d81 for Scala Compiler version 3.1.2
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\akmal.soliev\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.2\scala3-library_3-3.1.2.jar;C:\Users\akmal.soliev\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Formazione\Scala\programming-with-scala-notepad\lesson12-seasled-traits\target\scala-3.1.2\classes
+[debug] Scala compilation took 1.4179928 s
+[info] done compiling
