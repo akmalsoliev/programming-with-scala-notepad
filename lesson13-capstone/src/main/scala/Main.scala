@@ -1,21 +1,32 @@
 import java.time.{LocalDateTime, ZoneId, ZonedDateTime}
 
 object Main {
-//  val userInput: String = scala.io.StdIn.readLine("Please input desired tz: ")
 
-  class WhatTimeIsIt {
+  object WhatTimeIsIt {
+    // Getting the current timezone time
     private def getTime: ZonedDateTime = LocalDateTime.now().atZone(ZoneId.systemDefault)
 
-    private def checkLocation(location: String): Any = {
+    // Getting ZoneId
+    def setZone(location:String): ZoneId = ZoneId.of(location)
+
+    // Checking if valid timezone
+    def getTimeNow(location: String): String = {
+
       val allZones: Array[AnyRef] = ZoneId.getAvailableZoneIds.toArray()
-      if (allZones contains(location)) Array(location, true)
+
+      if (allZones contains(location)) {
+        val currentTime = getTime
+        val tzID = setZone(location)
+        val locationDateTime = currentTime.withZoneSameInstant(tzID)
+        val dtFormatted = java.time.format.DateTimeFormatter.RFC_1123_DATE_TIME
+        s"Current time in $location: ${locationDateTime.format(dtFormatted)}"
+      }
       else s"$location isn't found"
     }
-    // TODO: write this function
-    def getTimeIn(location:String) = checkLocation(location)
   }
 
   def main(args: Array[String]): Unit = {
-    WhatTimeIsIt.showThis()
+    val userInput: String = scala.io.StdIn.readLine("Please input desired tz: ")
+    println(WhatTimeIsIt.getTimeNow(userInput))
   }
 }
