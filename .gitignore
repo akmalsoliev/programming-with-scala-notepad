@@ -1,1 +1,6 @@
 Get_Programming_with_Scala.pdf
+.metals
+.vscode
+.idea
+.bsp
+.bloop

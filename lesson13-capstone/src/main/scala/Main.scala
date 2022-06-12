@@ -28,5 +28,3 @@ object Main {
   def main(args: Array[String]): Unit = {
     val userInput: String = scala.io.StdIn.readLine("Please input desired tz: ")
     println(WhatTimeIsIt.getTimeNow(userInput))
-  }
-}
