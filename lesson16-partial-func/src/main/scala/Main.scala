@@ -1,27 +1,32 @@
 
 object Main {
-  def main(args: Array[String]) = {
-    val x: Int = 22
-    
-    val divisibleByTwo: PartialFunction[Int, String] = {
-      case x if x % 2 == 0 => "Divisible"
-    }
-    
-    val notMetCase: PartialFunction[Int, String] = {
-      case _ => "Not divisible by two"
+  def main(args: Array[String]): Unit = {
+    class MissingValue(msg:String) extends Exception(msg)
+
+    def checkFile(): Int = {
+      try {
+        throw new MissingValue("The value you're looking for is missing!")
+        2
+      }
+      catch {
+        case ex: MissingValue =>
+          println(s"Never mind the exception $ex")
+          5
+      }
     }
 
-    val printResults: PartialFunction[String, Unit] = {
-      case a => println(a)
+    def toBoolean(input: String): Boolean = {
+      // NOTE: Do not use Any in a real life scenario
+      try {
+        input.toBoolean
+      }
+      catch {
+        case error: IllegalArgumentException =>
+          println(s"This input cannot be converted into boolean. \n$error")
+          false
+      }
     }
 
-    // def twoDivide(n: Int): String = divisibleByTwo.orElse(notMetCase)(n)
-    // def showResults(r: Int) = twoDivide.andThen(printResults)(r)
-    
-    // showResults(x)
-    
-    // Throwing an exception:
-    class notDivisible(msg: String) extends Exception(msg)
-    // TODO: EXPECTION HANDLING
+    toBoolean("Hello")
   }
 }
