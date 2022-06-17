@@ -1,0 +1,4 @@
+[debug] [root-test] Classpath dependencies List()
+[debug] [root-test] Dependencies from configurations List(root)
+[debug] Bloop wrote the configuration of project 'root-test' to 'C:\Users\solie\OneDrive\Coding\Scala\programming-with-scala-notepad\lesson18-capostone\.bloop\root-test.json'
+[success] Generated .bloop\root-test.json

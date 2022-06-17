@@ -15,10 +15,10 @@ object partialFunction {
       case a => println(a)
     }
 
-    // def twoDivide(n: Int): String = divisibleByTwo.orElse(notMetCase)(n)
-    // def showResults(r: Int) = twoDivide.andThen(printResults)(r)
+     def twoDivide(n: Int): String = divisibleByTwo.orElse(notMetCase)(n)
+     def showResults(r: Int) = twoDivide.andThen(printResults)(r)
     
-    // showResults(x)
+     showResults(x)
     
     // Throwing an exception:
     class notDivisible(msg: String) extends Exception(msg)
