@@ -1,1 +1,39 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\solie\OneDrive\Coding\Scala\programming-with-scala-notepad\lesson18-capostone\target\scala-2.13\lesson18-capostone_2.13-0.0.1-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/lesson18-capstone_3-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time/GetTime.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time/GetTime.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time/GetTime.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time/GetTime.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time/TimeApi$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time/TimeApi$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time/TimeApi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time/TimeApi.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/example/lesson18capostone/Time/TimeApi.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/com/example/lesson18capostone/Time/TimeApi.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/native-image[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/META-INF/native-image[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/native-image/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/META-INF/native-image/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/native-image/com/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/META-INF/native-image/com/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF/native-image/com/example/lesson18capostone[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/META-INF/native-image/com/example/lesson18capostone[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TimeApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/TimeApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TimeApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/TimeApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TimeApp.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/akmal.soliev/OneDrive - Nunatac S.r.l/Training/Scala/programming-with-scala-notepad/lesson18-capostone/target/scala-3.0.0/classes/TimeApp.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

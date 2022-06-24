@@ -1,0 +1,94 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading $throws$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/runtime/$throws$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading implicits$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/implicits.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/server/package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Router$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/server/Router.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Training\Scala\programming-with-scala-notepad\lesson18-capostone\src\main\scala\TimeApp.scala:10:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  [33mprivate[0m [33mval[0m httpApp = Router ([0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [33mobject[0m [35mRouter[0m in [33mpackage[0m [35morg.http4s.server[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Http4sDsl,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/dsl/Http4sDsl.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Training\Scala\programming-with-scala-notepad\lesson18-capostone\src\main\scala\com\example\lesson18capostone\Time\TimeApi.scala:10:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m[33mclass[0m [35mTimeApi[0m [33mextends[0m [35mHttp4sDsl[IO][0m {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Not found: type Http4sDsl[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading HttpRoutes,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/HttpRoutes.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Training\Scala\programming-with-scala-notepad\lesson18-capostone\src\main\scala\com\example\lesson18capostone\Time\TimeApi.scala:11:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m  [33mval[0m [36mroutes[0m: [35mHttpRoutes[IO][0m = HttpRoutes.of[[35mIO[0m] {[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Not found: type HttpRoutes[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading BlazeServerBuilder$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file org/http4s/blaze/server/BlazeServerBuilder.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.2.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Training\Scala\programming-with-scala-notepad\lesson18-capostone\src\main\scala\TimeApp.scala:15:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    BlazeServerBuilder[[35mIO[0m](ExecutionContext.global)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mobject[0m [35mBlazeServerBuilder[0m in [33mpackage[0m [35morg.http4s.blaze.server[0m does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: C:\Users\akmal.soliev\OneDrive - Nunatac S.r.l\Training\Scala\programming-with-scala-notepad\lesson18-capostone\src\main\scala\com\example\lesson18capostone\Time\TimeApi.scala:11:42 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m  [33mval[0m [36mroutes[0m: [35mHttpRoutes[IO][0m = HttpRoutes.of[[35mIO[0m] {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                value of is not a member of object org.http4s.HttpRoutes[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
